@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perfil de Alexsandro</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Alexsandro Cruz Rocha</h1>
+    <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+  </header>
+
+  <section class="sobre">
+    <h2>Sobre mim</h2>
+    <p>Olá! Meu nome é Alexsandro e sou apaixonado por tecnologia. Atualmente estou estudando Análise e Desenvolvimento de Sistemas e busco constantemente aprimorar meus conhecimentos em programação e desenvolvimento web.</p>
+  </section>
+
+  <section class="habilidades">
+    <h2>Minhas Habilidades</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>Lógica de Programação</li>
+      <li>Git e GitHub</li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <h2>Contato</h2>
+    <form id="formContato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="user_name" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="user_email" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="message" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="mensagemEnviada" style="display:none; color: #4CAF50; margin-top: 10px;">E-mail enviado com sucesso!</p>
+
+    <p>Ou entre em contato diretamente pelo telefone: <strong>(41) 99740-9518</strong></p>
+    <p>Email: <strong>alexsandrocruzrocha@gmail.com</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Alexsandro Cruz Rocha</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
